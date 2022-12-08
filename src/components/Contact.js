@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://tubular-lollipop-e64f87.netlify.app/contact", {
+    let response = await fetch("https://jay-rudani-portfolio-be.netlify.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
