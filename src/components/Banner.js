@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = useMemo(()=>[ "Web Developer", "Web Designer", "UI/UX Designer" ],[]);
+  const toRotate = useMemo(()=>[ "Java Full-Stack Developer", "MEAN/MERN Developer", "Back-End Developer" ],[]);
   const period = 2000;
 
   const tick = useCallback(() => {
@@ -57,6 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
+                {/* <h1>{`Hi! I'm Jay`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1> */}
                 <h1>{`Hi! I'm Jay`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>An IT engineer passionate about the software development. Experienced in working with teams in different software development stages, important ability to think critically and excellent analytical skills, ensuring a high-quality and fulfilment of business market needs. </p>
                     <button onClick={() => window.location.replace("/#connect")}>Let’s Connect <ArrowRightCircle size={25} /></button>

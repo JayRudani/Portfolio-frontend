@@ -33,23 +33,37 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>I have being coding since last 7+ years and learned different languages like Java, Javascript, C++, C#.<br></br> 
+                        I also possess strong knowledge in database like SQL, MongoDB, PL/SQL and JDBC in addition to this <br></br>
+                        I have also developed skills in technologies like J2EE, React.js, RESTFul API and version control GIT.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Skill 1" />
-                                <h5>Web Development</h5>
+                                <h5>Java</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Skill 2" />
-                                <h5>Brand Identity</h5>
+                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Skill 3" />
-                                <h5>Logo Design</h5>
+                                <h5>SQL</h5>
                             </div>
                             <div className="item">
+                                <img src={meter3} alt="Skill 3" />
+                                <h5>J2EE</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Skill 3" />
+                                <h5>Angular</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Skill 3" />
+                                <h5>Node.js</h5>
+                            </div>                           
+                            <div className="item">
                                 <img src={meter1} alt="Skill 4" />
-                                <h5>Web Development</h5>
+                                <h5>MongoDB</h5>
                             </div>
                         </Carousel>
                     </div>
