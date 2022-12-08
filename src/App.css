@@ -94,8 +94,20 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+.navbar-heading{
+  text-shadow: -1px -1px black, 1px 1px black, -3px 0 4px #000;
+  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight:lighter;
+  -moz-box-shadow:none;  
+  -webkit-box-shadow: none;  
+  box-shadow:none;  
+  text-align:center;
+  display:block; 
+}
 nav.navbar a.navbar-brand {
     width: 9%;
+    z-index: 1;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -623,4 +635,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.footer-heading{
+  text-shadow: -1px -1px black, 1px 1px black, -3px 0 4px #000;
+  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight:lighter;
+  -moz-box-shadow:none;  
+  -webkit-box-shadow: none;  
+  box-shadow:none;  
+  display:block; 
 }
