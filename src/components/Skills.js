@@ -33,9 +33,9 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I have being coding since last 7+ years and learned different languages like Java, Javascript, C++, C#.<br></br> 
-                        I also possess strong knowledge in database like SQL, MongoDB, PL/SQL and JDBC in addition to this <br></br>
-                        I have also developed skills in technologies like J2EE, React.js, RESTFul API and version control GIT.</p>
+                        <p>Java(J2SE/J2EE) | JavaScript | TypeScript | C++ | C | C# | MSSQL | PL/SQL | NoSQL | JAXB | Servlet | JSP | EJB | JPA | JDBC <br></br>
+                            Spring Boot | Spring MVC | React | Angular | Express | Node | jQuery | SOAP | REST | XML | Git | AWS | Cloud Computing | CI/CD | OOP<br></br>
+                            Microservices | Distributed Systems | Frontend | Backend | Full-Stack | English, Gujarati, Hindi – All professional proﬁciency or above </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Skill 1" />

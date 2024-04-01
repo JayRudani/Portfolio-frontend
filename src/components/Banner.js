@@ -59,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 {/* <h1>{`Hi! I'm Jay`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1> */}
                 <h1>{`Hi! I'm Jay`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>An IT engineer passionate about the software development. Experienced in working with teams in different software development stages, important ability to think critically and excellent analytical skills, ensuring a high-quality and fulfilment of business market needs. </p>
+                  <p>As a Software Developer with 2 Years of experience, my objective is to leverage my skills and experience to contribute to the success of an innovative and dynamic organization. I am passionate about building robust, scalable, and user-friendly applications that meet the needs of clients while ensuring high standards of quality and performance. With my expertise in various Java frameworks, web technologies, and databases, I am confident in my ability to deliver exceptional results and add value to any project.</p>
                     <button onClick={() => window.location.replace("/#connect")}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
